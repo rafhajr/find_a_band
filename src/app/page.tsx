@@ -1,4 +1,4 @@
-import { Button, Card, CardBody, CardFooter, CardHeader } from "@nextui-org/react";
+import { Button, Card, CardBody, CardFooter, CardHeader } from '@nextui-org/react';
 
 export default function Home() {
   return (
@@ -7,9 +7,7 @@ export default function Home() {
         <CardHeader>
           <p>This is a example card</p>
         </CardHeader>
-        <CardBody>
-          Card Body
-        </CardBody>
+        <CardBody>Card Body</CardBody>
         <CardFooter>
           <Button>Like</Button>
         </CardFooter>
