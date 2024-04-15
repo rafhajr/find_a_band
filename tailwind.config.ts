@@ -2,27 +2,27 @@ import { ColorScale, nextui } from '@nextui-org/react';
 import type { Config } from 'tailwindcss';
 
 const brand: ColorScale = {
-  100: '#FEEECB',
-  200: '#FED898',
-  300: '#FEBC65',
-  400: '#FDA13F',
-  500: '#FC7500',
-  600: '#D85900',
-  700: '#B54000',
-  800: '#922C00',
-  900: '#781E00'
+  100: '#FFF1CC',
+  200: '#FFE099',
+  300: '#FFC966',
+  400: '#FFB43F',
+  500: '#FF9000',
+  600: '#DB7200',
+  700: '#B75700',
+  800: '#933F00',
+  900: '#7A2F00'
 };
 
 const primary: ColorScale = {
-  100: '#F2F2F2',
-  200: '#E6E6E6',
-  300: '#B3B3B3',
-  400: '#696969',
-  500: '#050505',
-  600: '#040303',
-  700: '#030202',
-  800: '#020101',
-  900: '#020001'
+  100: '#F0ECF5',
+  200: '#E0DAEB',
+  300: '#B5AEC3',
+  400: '#7B7587',
+  500: '#312e38',
+  600: '#252130',
+  700: '#1B1728',
+  800: '#120E20',
+  900: '#0C081A'
 };
 
 const success: ColorScale = {
@@ -85,7 +85,7 @@ const config: Config = {
         dark: {
           layout: {}, // dark theme layout tokens
           colors: {
-            background: primary[500],
+            background: primary[600],
             default: {
               ...brand,
               DEFAULT: brand[700],
