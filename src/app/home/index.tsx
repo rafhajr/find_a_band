@@ -4,10 +4,12 @@ import { Header } from '@/components';
 
 export const Home = () => {
   return (
-    <div className="">
+    <div>
       <Header />
 
-      <div className="flex flex-col gap-10 p-5">
+      <div className="flex flex-col gap-8 px-12 py-6">
+        <Sessions />
+        <Sessions />
         <Sessions />
       </div>
     </div>
