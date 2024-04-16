@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Features
 
-## Getting Started
+- ⚡️ [React 18](https://beta.reactjs.org/)
+- 🎨 [Tailwind with JIT](https://tailwindcss.com/)
+- 🦾 [NEXTUI](https://nextui.org/docs/guide/introduction)
 
-First, run the development server:
+### Dev tools
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [Commit lint](https://github.com/conventional-changelog/commitlint) - helps your team adhering to a commit convention
+- [Husky](https://typicode.github.io/husky/)
+
+## Usage
+
+### Development
+
+Open the project folder and run:
+
+```bash
+npm i
+```
+
+Just run and visit http://127.0.0.1:3000/
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Build
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To build the App, run
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+npm run build
+```
 
-## Learn More
+And you will see the generated file in `.next` that ready to be served.
 
-To learn more about Next.js, take a look at the following resources:
+### Commit
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+For commit we use Husky, which runs lint and standardizes commit messages. The message must have a type and a message, there are four types ["feature", "chore", "fix", "bugfix"], and the message needs to be lowercase, examples:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+git commit -m 'feature: adding or enhancing existing features'
 
-## Deploy on Vercel
+git commit -m 'chore: code refactoring, updating dependencies, or improving project structure'
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+git commit -m 'fix: fix details in the code, not necessarily bugs'
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+git commit -m 'bugfix: fix bugs in the code'
+```
+
+
+### Issues
+
+#### Husky
+
+If pre-commit hooks are not working be sure that you have installed husky: `husky install`.
+
+By default this command should be triggered after yarn/npm deps are installed.
