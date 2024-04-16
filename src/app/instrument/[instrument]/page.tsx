@@ -14,7 +14,7 @@ const InstrumentPage = ({ params }: { params: { instrument: string } }) => {
     return router.push('/');
   }
 
-  const { image, title, width } = getInstrumentPageInfo('');
+  const { image, title, width, musicians } = getInstrumentPageInfo(params.instrument);
 
   return (
     <div>
@@ -33,11 +33,10 @@ const InstrumentPage = ({ params }: { params: { instrument: string } }) => {
             />
           </div>
         </div>
-        <div className="flex gap-5 mt-5">
-          <MusicianPreview />
-          <MusicianPreview />
-          <MusicianPreview />
-          <MusicianPreview />
+        <div className="grid grid-cols-4 gap-5 mt-5 pb-6">
+          {musicians.map((musician) => {
+            return <MusicianPreview key={musician.id} musician={musician} />;
+          })}
         </div>
       </div>
     </div>

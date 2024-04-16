@@ -7,9 +7,12 @@ import { Session } from './components/Session';
 
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
+import musicians from '@/@fakeData/fakeData.json';
 import Band from '@/assets/bandaMusic.svg';
 import { Header, SubTitle, Title } from '@/components';
 export const Home = () => {
+  const { bassPlayers, drummers, guitarPlayers, keyboardPlayers, singers } = musicians;
+
   return (
     <div>
       <Header />
@@ -31,12 +34,14 @@ export const Home = () => {
           infiniteLoop
           emulateTouch
           showThumbs={false}
+          className="pb-4"
+          showIndicators={false}
         >
-          <Session instrument="Bass" />
-          <Session instrument="Drums" />
-          <Session instrument="Guitar" />
-          <Session instrument="Keyboard" />
-          <Session instrument="Singer" />
+          <Session instrument="Bass" musicians={bassPlayers} />
+          <Session instrument="Drums" musicians={drummers} />
+          <Session instrument="Guitar" musicians={guitarPlayers} />
+          <Session instrument="Keyboard" musicians={keyboardPlayers} />
+          <Session instrument="Singer" musicians={singers} />
         </Carousel>
       </div>
     </div>
