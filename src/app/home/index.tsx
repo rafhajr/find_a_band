@@ -5,6 +5,8 @@ import Image from 'next/image';
 
 import { Session } from './components/Session';
 
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+
 import Band from '@/assets/bandaMusic.svg';
 import { Header, SubTitle, Title } from '@/components';
 export const Home = () => {
