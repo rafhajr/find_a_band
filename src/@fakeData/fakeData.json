@@ -1,0 +1,345 @@
+{
+  "bassPlayers": [
+    {
+      "id": "1",
+      "name": "Nate Mendel",
+      "photo": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcS-vcCek2r2sjyyS4DLh8HtwZe9htdiAr46uAXiZdMKJSHfwUUwqBZF4ITHghD8II9cJXX6sB5G6_mM2YE",
+      "description": "",
+      "email": "nate@mendel.com",
+      "phone": "55 48 99494-999",
+      "genres": [
+        { "genre": "Rock" }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Flea",
+      "photo": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQ00jTjor-bCdYK6j60avemA7yUppxKNgNxnUm-luMkIPjbqJ6-lk8_KeGkeJ8XrGTmKUyYu04nYVzCziM",
+      "description": "",
+      "email": "flea@rhcp.com",
+      "phone": "8484-888",
+      "genres": [
+        { "genre": "Rock" },
+        { "genre": "Funk" }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Davie504",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/5/54/Davie5042013.png",
+      "description": "",
+      "email": "Davie@504.com",
+      "phone": "88-777-55",
+      "genres": [
+        { "genre": "All Genres" }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Paul McCartney",
+      "photo": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQbKkomWOYY7Rj6NZRUDFUzP59Rtt0Fc0r2rUXATFNSizaIjf7cSUFCd4iQQasE0iJ6ApI91-kB2PqVHTg",
+      "description": "",
+      "email": "paul@beatles.com",
+      "phone": "88 8884-7979",
+      "genres": [
+        { "genre": "Rock" }
+      ]
+    }
+  ],
+  "drummers": [
+    {
+      "id": "1",
+      "name": "Chad Smith",
+      "photo": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcS3w_-hnQGODs90O5RgyiYXeVfEhByXHw4e-lGscJW8G4esO2d9JnLQVJAqUvKd7x_iOA0Kxl0vjg2aFPY",
+      "description": "",
+      "email": "chad@smith.com",
+      "phone": "55 4545 8585",
+      "genres": [
+        { "genre": "Funk" },
+        { "genre": "Rock" }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Eloy Casagrande",
+      "photo": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcT2e-iq0_ERTlYwXvdfAEP702cRVbimGKXQ6ncDWH05zg828wpkh9hDT4IYfh08yPtB3Z6ns1LwsU49M_4",
+      "description": "",
+      "email": "eloy@casagrande.com",
+      "phone": "55 8888 7777",
+      "genres": [
+        { "genre": "Metal" },
+        { "genre": "Rock" }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Mike Portnoy",
+      "photo": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSEFo0Rx8abEn6hgWD3BDtsZ0F19_jQRhLkGJXrIi8Akh9kv33mIxzZjZkF1GzuprrN6VqqWY7aBfZGPFI",
+      "description": "",
+      "email": "Mike@Portnoy.com",
+      "phone": "55 123 777227",
+      "genres": [
+        { "genre": "Metal" },
+        { "genre": "Rock" }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Ringo Starr",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ringo_Starr.png",
+      "description": "",
+      "email": "Ringo@Starr.com",
+      "phone": "515 123 345",
+      "genres": [
+        { "genre": "Pop" },
+        { "genre": "Rock" }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Travis Barker",
+      "photo": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcT_pEUkcY0q5uyUUD-JPAhf6KwkiEW80WGyr4KJ69Y-hIJzvaXupwVszLjXXoIvgkO7j5XLI0oQi2qdY9M",
+      "description": "",
+      "email": "Travis@Barker.com",
+      "phone": "55 6363 7887",
+      "genres": [
+        { "genre": "Punk" },
+        { "genre": "Rock" },
+        { "genre": "Hip Hop" }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Tre Cool",
+      "photo": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRKXODZ73QLGD_1MEonjUwYyvvpb5CiT0x-Pcv2Im69b2y2mWDwv-XS05vLx4s7y5mG5g9tZLE8hujHufE",
+      "description": "",
+      "email": "Tre@Cool.com",
+      "phone": "55 1232 3333",
+      "genres": [
+        { "genre": "Punk" },
+        { "genre": "Rock" }
+      ]
+    }
+
+  ],
+  "guitarPlayers": [
+    {
+      "id": "1",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/0/07/Glasto2023_%28216_of_468%29_%2853008944401%29_-_slash_crop.jpg",
+      "name": "Slash",
+      "description": "",
+      "email": "slash@slash.com",
+      "phone": "77 7979",
+      "genres": [
+        { "genre": "Rock" }
+      ]
+    },
+    {
+      "id": "2",
+      "photo": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTz5d6ZuanWyJR_Hh1kRP5PCegQeS-Dh6hY839HPsxnTSZtV-bfDadFJFr_FWVvnds5-gr1AofmBRk8HmE",
+      "name": "Chris Shiflett",
+      "description": "",
+      "email": "Chris@Shiflett.com",
+      "phone": "5656 555",
+      "genres": [
+        { "genre": "Rock" },
+        { "genre": "Country" }
+      ]
+    },
+    {
+      "id": "3",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Joan_Jett_2013.jpg/200px-Joan_Jett_2013.jpg",
+      "name": "Joan Jett",
+      "description": "",
+      "email": "Joan@Jett.com",
+      "phone": "888 888",
+      "genres": [
+        { "genre": "Rock" }
+      ]
+    },
+    {
+      "id": "4",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Orianthi_2012-10-28.jpg",
+      "name": "Orianthi",
+      "description": "",
+      "email": "Orianthi@Orianthi.com",
+      "phone": "8181 8888",
+      "genres": [
+        { "genre": "Rock" },
+        { "genre": "Pop" }
+      ]
+    },
+    {
+      "id": "5",
+      "photo": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRWcKuvAKam2WzZCw3iNa1bZc5I9kuzpWA_KO6sVPsUYC7lUXU-1glRFgMOFTWWIgNADzy8mck5II2BDK8",
+      "name": "Nita Strauss",
+      "description": "",
+      "email": "Nita@Strauss.com",
+      "phone": "3232 3333",
+      "genres": [
+        { "genre": "Rock" }
+      ]
+    },
+    {
+      "id": "6",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Juninhoafram16.jpg",
+      "name": "Juninho Afram",
+      "description": "",
+      "email": "Juninho@Afram.com",
+      "phone": "77 8787",
+      "genres": [
+        { "genre": "Rock" },
+        { "genre": "Metal" }
+      ]
+    },
+    {
+      "id": "7",
+      "photo": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcStkx1ZeCTFlIKs0uRyi-WRDhcWZkCvKhtQ4_iaE0sC3uvKnTKe6NTfVrmiXYEa8OaAL7zh1fwyuRBnf94",
+      "name": "John Mayer",
+      "description": "",
+      "email": "John@Mayer.com",
+      "phone": "77123 878227",
+      "genres": [
+        { "genre": "Pop" },
+        { "genre": "Blues" }
+      ]
+    },
+    {
+      "id": "8",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Carlos_Santana_2.jpg/250px-Carlos_Santana_2.jpg",
+      "name": "Carlos Santana",
+      "description": "",
+      "email": "carlos@santana.com",
+      "phone": "77 8787",
+      "genres": [
+        { "genre": "Blues" }
+      ]
+    }
+  ],
+  "keyboardPlayers": [
+    {
+      "id": "1",
+      "name": "Stevie Wonder",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Stevie_Wonder_1967_%281%29.jpg/274px-Stevie_Wonder_1967_%281%29.jpg",
+      "description": "",
+      "email": "stevie@wonder.com",
+      "phone": "888 777 555",
+      "genres": [
+        { "genre": "All" }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Derek Sherinian",
+      "photo": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcT8Q24Cre2esWSOV5mKNUjmMtm3rKzP59pckbfrYbvixQqvBpOIZtUmxpZVj0ZZuLKhv6w64iU4EYTntbY",
+      "description": "",
+      "email": "Derek@Sherinian.com",
+      "phone": "888 888 555",
+      "genres": [
+        { "genre": "Metal" }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Don Airey",
+      "photo": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSVQLsn-guvUFo0I6bhIHGialOogmUyZCU66HByMF4Ms8GK3s37xl6jVriOV2kmtIjiCRukriG1nYYVfAA",
+      "description": "",
+      "email": "Don@Airey.com",
+      "phone": "888 555",
+      "genres": [
+        { "genre": "Rock" }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Rami Jaffe",
+      "photo": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcR_lm3Sfl3zrSdSg46Tdo3B_aVNvP9qk2ZYTyUfNiWI4ygTnGwgGi1ERfqpS-nxyCwJ_7g8PdVDxTZma-4",
+      "description": "",
+      "email": "stevie@wonder.com",
+      "phone": "888 777 555",
+      "genres": [
+        { "genre": "All" }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Tori Amos",
+      "photo": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTcXcJ0SBAoFNIfCly0yZRJhachEgLJA9LuI1qy1nhDhUwNVpruQKpcZS5N-7Manc01eOEknHW8yf9xFLk",
+      "description": "",
+      "email": "Tori@Amos.com",
+      "phone": "888",
+      "genres": [
+        { "genre": "Pop" }
+      ]
+    }
+  ],
+  "singers": [
+    {
+      "id": "1",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/2/25/ParamoreO2200423_%2858_of_88%29_%2852833506157%29_Cropped.jpg",
+      "name": "Hayley Williams",
+      "description": "",
+      "email": "hayley@williams.com",
+      "phone": "777 888",
+      "genres": [
+        { "genre": "Rock" }
+      ]
+    },
+    {
+      "id": "2",
+      "photo": "https://upload.wikimedia.org/wikipedia/pt/thumb/b/b1/Alicia_Keys_-_As_I_Am.jpg/220px-Alicia_Keys_-_As_I_Am.jpg",
+      "name": "Alicia Keys",
+      "description": "",
+      "email": "Alicia@Keys.com",
+      "phone": "777 555",
+      "genres": [
+        { "genre": "Pop" }
+      ]
+    },
+    {
+      "id": "3",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Adele_for_Vogue_in_2021.png/200px-Adele_for_Vogue_in_2021.png",
+      "name": "Adele",
+      "description": "adele@adele.com",
+      "email": "adele@adele.com",
+      "phone": "555 888",
+      "genres": [
+        { "genre": "Pop" }
+      ]
+    },
+    {
+      "id": "4",
+      "photo": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRRjqs6WaYKTMTcapGkSIcJn4cAZr1J334NkCEeS7XCRwyW4iHCbO3SuQol4--mC5CITVMtud2AGWVMrmU",
+      "name": "Oli Sykes",
+      "description": "",
+      "email": "Oli@Sykes.com",
+      "phone": "8181 8888",
+      "genres": [
+        { "genre": "Metalcore" }
+      ]
+    },
+    {
+      "id": "5",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Spiritbox_-_Rock_am_Ring_2022-5177.jpg/763px-Spiritbox_-_Rock_am_Ring_2022-5177.jpg",
+      "name": "Courtney LaPlante",
+      "description": "",
+      "email": "Courtney@LaPlante.com",
+      "phone": "3232 3333",
+      "genres": [
+        { "genre": "Metalcore" }
+      ]
+    },
+    {
+      "id": "6",
+      "photo": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSC5dHXTqKJqX5YeHlzNtNAXWv2owk3fLLBtUOl_CBvnhBLEZiavi1KVYa-Q-6WSpzxVtgbOVZDdXJqi9M",
+      "name": "Ed Sheeran",
+      "description": "",
+      "email": "ed@sheeran.com",
+      "phone": "77 8787",
+      "genres": [
+        { "genre": "Pop" }
+      ]
+    }
+  ]
+   
+}
