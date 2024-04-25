@@ -16,7 +16,7 @@ export const Home = () => {
     <div>
       <Header />
       <div className="flex flex-col bg-default-700  items-center h-[500px] gap-8 px-12 py-12">
-        <div className="flex items-center justify-evenly w-full">
+        <div className="flex items-center flex-col md:flex-row justify-evenly w-full">
           <div className="flex flex-col gap-2">
             <Title>Find Your Band</Title>
             <SubTitle>The best musicians are here</SubTitle>

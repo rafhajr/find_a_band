@@ -29,18 +29,22 @@ export const MusicianModal = ({ isOpen, onClose, musician }: MusicianModalProps)
               {musician?.name || 'Default Name'}
             </ModalHeader>
             <ModalBody>
-              <div className="flex gap-10 ">
-                <div className="flex flex-col justify-center gap-5">
+              <div className="flex flex-col gap-10 md:flex-row">
+                <div className="flex flex-col justify-center items-center gap-5">
                   {musician?.photo ? (
                     <Avatar src={musician.photo} className="w-[200px] h-[200px]" radius="sm" />
                   ) : (
                     <Image src={newImg} alt="Default" className="rounded-md" height={2000} />
                   )}
 
-                  <div className="grid grid-cols-3 gap-2">
+                  <div className="grid w-[200px] grid-cols-3 gap-2">
                     {musician?.genres ? (
-                      musician.genres.map((genre) => {
-                        return <Chip variant="bordered">{genre.genre}</Chip>;
+                      musician.genres.map((genre, index) => {
+                        return (
+                          <Chip key={index} variant="bordered">
+                            {genre.genre}
+                          </Chip>
+                        );
                       })
                     ) : (
                       <>

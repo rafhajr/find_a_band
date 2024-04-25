@@ -16,7 +16,7 @@ export const Session = ({ instrument, musicians }: SessionProps) => {
   const selectedMusician = musicians.slice(0, 4);
 
   return (
-    <div className="flex flex-col w-[1000px] mt-2 gap-4 rounded-2xl">
+    <div className="flex flex-col md:w-[1000px] mt-2 gap-4 rounded-2xl">
       <div className="flex items-center justify-between pb-2 border-b-2 ">
         <Metric className="">{instrument}</Metric>
         <Button size="lg" variant="light" onClick={() => router.push(`/instrument/${instrument.toLowerCase()}`)}>
