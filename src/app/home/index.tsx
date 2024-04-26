@@ -26,14 +26,13 @@ export const Home = () => {
           </div>
         </div>
         <Carousel
-          width={990}
           showArrows={false}
           autoPlay
           showStatus={false}
           infiniteLoop
           emulateTouch
           showThumbs={false}
-          className="pb-4"
+          className="pb-4 w-full lg:w-[990px]"
           showIndicators={false}
         >
           {allMusicians.map((musicians) => {

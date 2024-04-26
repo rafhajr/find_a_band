@@ -19,14 +19,14 @@ export const MusicianPreview = ({ musician }: MusicianPreview) => {
 
   return (
     <>
-      <Card className="p-1 bg-primary-500">
+      <Card className="p-1 bg-primary-500 flex">
         <CardHeader>
-          <Text variant="bold" className="text-default-600">
-            {musician?.name || 'Default Name'}
+          <Text variant="bold" className="text-default-600 truncate ...">
+            {musician.name || 'Default Name'}
           </Text>
         </CardHeader>
-        <CardBody className="flex gap-2 md:w-56 items-center">
-          <Avatar src={musician.photo} className="w-28 h-28 md:w-[200px] md:h-[200px]" radius="sm" />
+        <CardBody className="flex gap-2 lg:w-56 items-center ">
+          <Avatar src={musician.photo} className="w-24 h-24 md:w-28 md:h-28 lg:w-[200px] lg:h-[200px]" radius="sm" />
         </CardBody>
         <CardFooter className="flex justify-end">
           <Button variant="light" size="sm" onClick={() => setIsOpen(true)}>
