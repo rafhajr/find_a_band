@@ -10,11 +10,7 @@ import { Text } from '../Typography';
 
 import { MusicianProps } from '@/@types/musicianProps';
 
-type MusicianPreview = {
-  musician: MusicianProps;
-};
-
-export const MusicianPreview = ({ musician }: MusicianPreview) => {
+export const MusicianPreview = ({ musician }: { musician: MusicianProps }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -25,8 +21,8 @@ export const MusicianPreview = ({ musician }: MusicianPreview) => {
             {musician.name || 'Default Name'}
           </Text>
         </CardHeader>
-        <CardBody className="flex gap-2 lg:w-56 items-center ">
-          <Avatar src={musician.photo} className="w-24 h-24 md:w-28 md:h-28 lg:w-[200px] lg:h-[200px]" radius="sm" />
+        <CardBody className="flex gap-2  items-center ">
+          <Avatar src={musician.photo} className="w-24 h-24 md:w-[180px] md:h-[180px]" size="sm" radius="sm" />
         </CardBody>
         <CardFooter className="flex justify-end">
           <Button variant="light" size="sm" onClick={() => setIsOpen(true)}>
