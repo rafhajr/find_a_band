@@ -2,15 +2,10 @@
 
 import { useRouter } from 'next/navigation';
 
-import { MusicianProps } from '@/@types/musicianProps';
+import { MusiciansByInstrumentContract } from '@/@types/musicianProps';
 import { Button, Metric, MusicianPreview } from '@/components';
 
-type SessionProps = {
-  instrument: string;
-  musicians: MusicianProps[];
-};
-
-export const Session = ({ instrument, musicians }: SessionProps) => {
+export const MusiciansSession = ({ instrument, musicians }: MusiciansByInstrumentContract) => {
   const router = useRouter();
 
   const selectedMusician = musicians.slice(0, 4);
