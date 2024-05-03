@@ -1,0 +1,1 @@
+export { MusiciansCarousel } from './MusiciansCarousel';

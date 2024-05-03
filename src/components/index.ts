@@ -5,4 +5,6 @@ export * from './Header';
 export * from './Modal';
 export * from './MusicianModal';
 export * from './MusicianPreview';
+export * from './MusiciansCarousel';
+export * from './MusiciansSession';
 export * from './Typography';
