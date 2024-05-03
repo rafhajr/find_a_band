@@ -11,7 +11,8 @@ const InstrumentPage = ({ params }: { params: { instrument: string } }) => {
   const router = useRouter();
 
   if (!validInstruments.includes(params.instrument.toLowerCase())) {
-    return router.push('/');
+    router.push('/');
+    return null;
   }
 
   const { image, title, width, musicians } = getInstrumentPageInfo(params.instrument);
@@ -33,7 +34,7 @@ const InstrumentPage = ({ params }: { params: { instrument: string } }) => {
             />
           </div>
         </div>
-        <div className="grid gap-5 mt-5 pb-6 grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-5 mt-5 pb-6 grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {musicians.map((musician) => {
             return <MusicianPreview key={musician.id} musician={musician} />;
           })}

@@ -3,8 +3,8 @@ import { Poppins } from 'next/font/google';
 
 import Providers from './providers';
 
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './globals.css';
-
 const poppins = Poppins({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   subsets: ['latin']

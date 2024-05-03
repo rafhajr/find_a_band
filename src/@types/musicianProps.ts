@@ -7,3 +7,8 @@ export type MusicianProps = {
   phone: string;
   genres: { genre: string }[];
 };
+
+export type MusiciansByInstrumentContract = {
+  instrument: string;
+  musicians: MusicianProps[];
+};

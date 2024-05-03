@@ -6,19 +6,21 @@ import { MusicianProps } from '@/@types/musicianProps';
 import newImg from '@/assets/default.jpg';
 import { Chip, Label, Modal, ModalBody, ModalContent, ModalHeader, Text } from '@/components';
 
-type MusicianModalProps = {
+export const MusicianModal = ({
+  isOpen,
+  onClose,
+  musician
+}: {
   isOpen: boolean;
   onClose: () => void;
   musician?: MusicianProps;
-};
-
-export const MusicianModal = ({ isOpen, onClose, musician }: MusicianModalProps) => {
+}) => {
   return (
     <>
       <Modal
         isOpen={isOpen}
         size="2xl"
-        className="bg-primary-600"
+        className="bg-primary-600 p-2"
         classNames={{ closeButton: 'hover:bg-white/5 active:bg-white/10' }}
         backdrop="blur"
         onClose={onClose}
