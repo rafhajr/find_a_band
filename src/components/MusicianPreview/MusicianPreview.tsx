@@ -15,14 +15,14 @@ export const MusicianPreview = ({ musician }: { musician: MusicianProps }) => {
 
   return (
     <>
-      <Card className="p-1 bg-primary-500 flex">
+      <Card className="p-1 bg-primary-500">
         <CardHeader>
           <Text variant="bold" className="text-default-600 truncate ...">
             {musician.name || 'Default Name'}
           </Text>
         </CardHeader>
-        <CardBody className="flex gap-2  items-center ">
-          <Avatar src={musician.photo} className="w-24 h-24 md:w-[180px] md:h-[180px]" size="sm" radius="sm" />
+        <CardBody className="flex items-center">
+          <Avatar src={musician.photo} className="w-28 h-28 sm:w-32 sm:h-32 lg:w-44 lg:h-44" radius="sm" />
         </CardBody>
         <CardFooter className="flex justify-end">
           <Button variant="light" size="sm" onClick={() => setIsOpen(true)}>

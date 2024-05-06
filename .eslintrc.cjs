@@ -25,7 +25,13 @@ module.exports = {
     es6: true,
     node: true
   },
-  extends: ['eslint:recommended', 'plugin:react-hooks/recommended', 'prettier', 'plugin:prettier/recommended'],
+  extends: [
+    'eslint:recommended',
+    'plugin:react-hooks/recommended',
+    'prettier',
+    'plugin:prettier/recommended',
+    'next/core-web-vitals'
+  ],
   plugins: ['simple-import-sort'],
   overrides: [
     {

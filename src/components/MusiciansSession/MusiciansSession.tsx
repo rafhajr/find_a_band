@@ -18,7 +18,7 @@ export const MusiciansSession = ({ instrument, musicians }: MusiciansByInstrumen
           See all
         </Button>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-5 px-4">
+      <div className="grid gap-5 pb-6 grid-cols-2 md:grid-cols-4 py-2 px-4">
         {selectedMusician.map((musician) => (
           <MusicianPreview musician={musician} key={musician.id} />
         ))}
