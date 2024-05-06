@@ -3,7 +3,9 @@
 ![image](https://github.com/rafhajr/find_a_band/assets/14079111/bc0802f2-f82b-42f8-bac8-5f9ea2a7bfa0)
 
 
-> This is a Project.
+> This is an application with the aim of forming a band, musicians can create an account, and show a little of themselves, and with that, bands that need musicians can find them here.
+
+### Check the site: [Find A Band](https://find-a-band.vercel.app/)
 
 ### Adjustments and improvements
 
@@ -11,13 +13,11 @@ The project is still under development and the next updates will focus on the fo
 
 - [ ] Translation
 - [ ] Api
-- [ ] Login
-- [ ] Musician registration
 - [ ] Use informations from backend
 
 ## 💻 Features
 
-- ⚡️ [React 18](https://beta.reactjs.org/)
+-  ⚡️  [NextJS](https://nextjs.org/docs)
 - 🎨 [Tailwind with JIT](https://tailwindcss.com/)
 - 🦾 [NEXTUI](https://nextui.org/docs/guide/introduction)
 - 🎇 [TypeScript](https://www.typescriptlang.org/)
