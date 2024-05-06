@@ -1,18 +1,33 @@
-## Features
+# Find A Band
+
+![image](https://github.com/rafhajr/find_a_band/assets/14079111/bc0802f2-f82b-42f8-bac8-5f9ea2a7bfa0)
+
+
+> This is a Project.
+
+### Adjustments and improvements
+
+The project is still under development and the next updates will focus on the following tasks:
+
+- [ ] Translation
+- [ ] Api
+- [ ] Login
+- [ ] Musician registration
+- [ ] Use informations from backend
+
+## 💻 Features
 
 - ⚡️ [React 18](https://beta.reactjs.org/)
 - 🎨 [Tailwind with JIT](https://tailwindcss.com/)
 - 🦾 [NEXTUI](https://nextui.org/docs/guide/introduction)
+- 🎇 [TypeScript](https://www.typescriptlang.org/)
+- 📝 [Commit lint](https://github.com/conventional-changelog/commitlint)
+- 🐺 [Husky](https://typicode.github.io/husky/)
 
-### Dev tools
 
-- [TypeScript](https://www.typescriptlang.org/)
-- [Commit lint](https://github.com/conventional-changelog/commitlint) - helps your team adhering to a commit convention
-- [Husky](https://typicode.github.io/husky/)
+## 🚀 Using Find A Band
 
-## Usage
-
-### Development
+### 💻 Development
 
 Open the project folder and run:
 
@@ -26,7 +41,7 @@ Just run and visit http://127.0.0.1:3000/
 npm run dev
 ```
 
-### Build
+### 🔨 Build
 
 To build the App, run
 
@@ -36,7 +51,7 @@ npm run build
 
 And you will see the generated file in `.next` that ready to be served.
 
-### Commit
+### 📨 Commit
 
 For commit we use Husky, which runs lint and standardizes commit messages. The message must have a type and a message, there are four types ["feature", "chore", "fix", "bugfix"], and the message needs to be lowercase, examples:
 
@@ -50,10 +65,9 @@ git commit -m 'fix: fix details in the code, not necessarily bugs'
 git commit -m 'bugfix: fix bugs in the code'
 ```
 
+###  🐛 Issues
 
-### Issues
-
-#### Husky
+#### 🐺 Husky
 
 If pre-commit hooks are not working be sure that you have installed husky: `husky install`.
 
