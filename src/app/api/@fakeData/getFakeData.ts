@@ -1,4 +1,4 @@
-import fakeData from '@/@fakeData/fakeData.json';
+import fakeData from './fakeData.json';
 
 export const allMusicians = [
   { instrument: 'Bass', musicians: fakeData.bassPlayers },

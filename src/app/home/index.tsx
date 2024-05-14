@@ -1,12 +1,25 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
-import { allMusicians } from '@/@fakeData/getFakeData';
 import BandImage from '@/assets/bandaMusic.svg';
 import { Header, MusiciansCarousel, SubTitle, Title } from '@/components';
 
 export const Home = () => {
+  const [allMusicians, setAllMusicians] = useState();
+
+  const fetchMusicians = async () => {
+    const response = await fetch('api/musicians');
+    const musicians = await response.json();
+
+    setAllMusicians(musicians);
+  };
+
+  useEffect(() => {
+    fetchMusicians();
+  }, []);
+
   return (
     <div>
       <Header />
@@ -26,7 +39,7 @@ export const Home = () => {
             />
           </div>
         </div>
-        <MusiciansCarousel allMusicians={allMusicians} />
+        {allMusicians && <MusiciansCarousel allMusicians={allMusicians} />}
       </div>
     </div>
   );
